@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- nav bar starts -->
+  <nav class="navbar navbar-expand-lg bg-success-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Imtiaz<span class="text-success">Mart</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="new.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="task.html">Task Manager</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">Blogs</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More Ietms
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">My portfolio</a></li>
+              <li><a class="dropdown-item" href="#">Extra sessions</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+            <!-- modal -->
+            <div class="modal fade bg-dark-subtle" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Login Into System</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Email </label>
+                          <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Password </label>
+                            <input type="password" class="form-control" id="recipient-name">
+                          </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-dark">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- modal -->
+         
+          <button class="btn btn-success btn-lg" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar end -->
+
+
+<!-- header -->
+<div class="container-fluid text-center text-white bg-success p-5">
+    <h1 class="display-4 fw-bold text-decoration-underline">WELCOME TO IMTIAZ SHOPPIMNG MART</h1>
+    <p class="fs-3 fst-italic">Happy Shopping with Us</p>
+    <input class="btn btn-outline-dark btn-lg" type="button" value="View Mart">
+    <input class="btn btn-dark btn-lg" type="button" value="Login">
+</div>
+
+<!-- header close -->
+
+
+<!-- slider open -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="5.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleFade " data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleFade " data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<!-- slider close -->
+
+</body>
+</html>
